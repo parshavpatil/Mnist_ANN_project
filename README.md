@@ -31,14 +31,16 @@ A simple end-to-end project that builds and deploys an Artificial Neural Network
    cd Mnist_ANN_project
 
 2. Create and activate a virtual environment
-
-python3 -m venv venv
-source venv/bin/activate     # On Windows: venv\Scripts\activate
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate     # On Windows: venv\Scripts\activate
 
 3. Install required packages
-
-pip install -r requirements.txt
-
+    ```bash
+    pip install -r requirements.txt
+    
 4. Run the Flask application
-
-python app.py
+   ```bash
+   python app.py
+ 
+ 
